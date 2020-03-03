@@ -4,7 +4,8 @@ ENV APP_NAME="Steam" \
     XDG_CACHE_HOME=/steam/xdg/cache \
     XDG_CONFIG_HOME=/steam/xdg/config \
     XDG_DATA_HOME=/steam/xdg/data \
-    XDG_RUNTIME_DIR=/tmp/run/user/app
+    XDG_RUNTIME_DIR=/tmp/run/user/app \
+    APP_ICON_URL="https://raw.githubusercontent.com/mikenye/docker-steam/master/steam_icon.png"
 
 RUN set -x && \
     dpkg --add-architecture i386 && \
