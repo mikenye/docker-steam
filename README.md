@@ -4,7 +4,7 @@ This container is a work in progress.
 
 It implements Steam running on Linux, inside a Docker Container.
 
-The eventual plan is to use this container to play games via Steam Remote Play.
+The eventual plan is to use this container to play games (native Linux and Proton) via Steam Remote Play.
 
 It is far from done, however I have managed to play a couple of native Linux games via the NoVNC web interface.
 
@@ -35,6 +35,10 @@ You may need to run `modprobe uinput` on the docker host prior... See how you go
   * PixelJunk Monsters Ultimate
   * PixelJunk Shooter
 * I have had moderate success with Undertale
+* For Remote Play:
+  * Keyboard/Mouse input seems to work fine
+  * Gamepad input seems hit and miss
+  * Sound doesn't appear to be working (it has worked in the past...)
 
 ## Troubleshooting
 
