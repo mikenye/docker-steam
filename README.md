@@ -26,6 +26,8 @@ docker run \
     steam
 ```
 
+You can then browse to http://dockerhost:5800/, log in as yourself, install a game and try it out.
+
 You may need to run `modprobe uinput` on the docker host prior... See how you go.
 
 ## Current Status
@@ -52,4 +54,9 @@ If this interests you, please get involved!
 Please fork, make changes, submit pull requests, open issues, etc.
 
 I don't think I'm good enough to get this running perfectly on my own. :-)
+
+## Screenshots
+
+![PixelJunk Monsters via NoVNC](https://imgur.com/a/B7HT7nL "PixelJunk Monsters via NoVNC")
+
 
