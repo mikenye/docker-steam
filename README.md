@@ -57,6 +57,6 @@ I don't think I'm good enough to get this running perfectly on my own. :-)
 
 ## Screenshots
 
-![PixelJunk Monsters via NoVNC](https://imgur.com/a/B7HT7nL "PixelJunk Monsters via NoVNC")
+[PixelJunk Monsters via NoVNC](https://i.imgur.com/7FVqXm5.mp4)
 
 
