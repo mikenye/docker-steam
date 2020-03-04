@@ -35,6 +35,8 @@ RUN set -x && \
       libopenal1:i386 \
       libsm6:i386 \
       libice6:i386 \
+      libasound2-plugins:i386 \
+      libsdl2-image-2.0-0:i386 \
       dbus \
       dbus-x11 \
       file \
