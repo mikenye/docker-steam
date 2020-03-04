@@ -34,7 +34,8 @@ You may need to run `modprobe uinput` on the docker host prior... See how you go
 * I have had success launching two native Linux titles:
   * PixelJunk Monsters Ultimate
   * PixelJunk Shooter
-* I have had moderate success with Undertale
+* I have had moderate success with Undertale (native Linux)
+* I have had no success with Proton games, I think this is due to the fact that I'm not passing through a GPU to the container... I will test this further as time permits.
 * For Remote Play:
   * Keyboard/Mouse input seems to work fine
   * Gamepad input seems hit and miss
