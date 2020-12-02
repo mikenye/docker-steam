@@ -8,7 +8,7 @@ The eventual plan is to use this container to play games (native Linux and Proto
 
 It is far from done, however I have managed to play a couple of native Linux games via the NoVNC web interface.
 
-This container builds upon the excellent work done in the [jlesange/baseimage-gui](https://hub.docker.com/r/jlesage/baseimage-gui) container.
+This container builds upon the excellent work done in the [jlesage/baseimage-gui](https://hub.docker.com/r/jlesage/baseimage-gui) container.
 
 ## Running
 
