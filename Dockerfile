@@ -1,4 +1,4 @@
-FROM jlesage/baseimage-gui:ubuntu-18.04
+FROM jlesage/baseimage-gui:ubuntu-20.04
 
 ENV APP_NAME="Steam" \
     XDG_CACHE_HOME=/steam/xdg/cache \
@@ -12,7 +12,7 @@ RUN set -x && \
     apt-get install -y --no-install-recommends \
       sudo \
       xterm \
-      wget && \ 
+      wget && \
     echo "========== Setup sudoers ==========" && \
     echo "app    ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers && \
     echo "========== Install Steam ==========" && \
@@ -47,7 +47,7 @@ RUN set -x && \
     cd /src && \
     wget http://repo.steampowered.com/steam/archive/precise/steam_latest.tar.gz && \
     tar xzvf steam_latest.tar.gz && \
-    cd /src/steam && \
+    cd /src/steam-launcher && \
     make install && \
     echo "========== Clean up ==========" && \
     rm /var/lib/dpkg/statoverride && \
@@ -58,4 +58,3 @@ RUN set -x && \
     rm -rf /var/lib/apt/lists/*
 
 COPY rootfs/ /
-
