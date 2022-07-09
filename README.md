@@ -10,6 +10,15 @@ It is far from done, however I have managed to play a couple of native Linux gam
 
 This container builds upon the excellent work done in the [jlesage/baseimage-gui](https://hub.docker.com/r/jlesage/baseimage-gui) container.
 
+## Preparation
+
+1. Install Docker.
+2. Run this command to build:
+
+```
+docker build . --tag steam
+```
+
 ## Running
 
 So far, I've had success running like this:
